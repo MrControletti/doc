@@ -33,6 +33,9 @@
 * Changer le mot de passe root : ```passwd root```
 
 * Mettre à jour le système d’exploitation : ```apt-get update && apt-get dist-upgrade && rpi-update```
+* La commande rpi-update reviens avec une erreur car il faut installer rpi-update comme suit : ```sudo apt-get install rpi-update```
+* Puis : ```sudo rpi-update```
+
 
 ---
 ***Si vous avez besoin d’aide lors de ces étapes, n’hésitez pas à utiliser les différents [moyens de support](/support_fr).***
